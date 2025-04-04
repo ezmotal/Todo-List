@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do-List</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Main container for the to-do list -->
+    <div class="todo-container">
+      <!-- Title of the to-do list -->
+      <h1>TO DO LIST</h1>
+      <!-- Row containing input fields and the add button -->
+      <div class="todo-row">
+        <!-- Input field for adding a new task -->
+        <input placeholder="Add a new task" id="type" />
+        <!-- Input field for selecting a date -->
+        <input type="date" name="date" id="date" />
+        <!-- Button to add a new task -->
+        <button onclick="addTodo()">Add Task</button>
+      </div>
+      <!-- Container for displaying the list of tasks -->
+      <div id="todo-list"></div>
+    </div>
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
