@@ -11,7 +11,7 @@ A simple and stylish to-do list application built with **HTML**, **CSS**, and **
 
 ## 📸 Preview
 
-![To-Do List Screenshot]() <!-- Add your screenshot file if you have one -->
+![To-Do List Screenshot](Screenshot 2025-04-04 070248.png) <!-- Add your screenshot file if you have one -->
 
 ## 🛠️ Technologies Used
 
