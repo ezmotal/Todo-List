@@ -6,20 +6,19 @@ function renderTodolist() {
   let todoListHTML = ""; // Initialize HTML string
 
   // Loop through each task in the Todo array
-  for (let i = 0; i < Todo.length; i++) {
-    const todoObject = Todo[i];
+  Todo.forEach(function (todoObject, index) {
     const { name, date } = todoObject; // Destructure the object to get name and date
 
     // Create HTML for each task
     const html = `
-      <p>
-        <span>${name}</span>
-        <span>${date}</span>
-        <button onclick="deleteTask(${i})">Delete</button>
-      </p>
-    `;
+    <p>
+      <span>${name}</span>
+      <span>${date}</span>
+      <button onclick="deleteTask(${index})">Delete</button>
+    </p>
+  `;
     todoListHTML += html; // Append task HTML to the list
-  }
+  });
 
   // Update the task list container with the generated HTML
   document.querySelector("#todo-list").innerHTML = todoListHTML;
