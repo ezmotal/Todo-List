@@ -12,7 +12,7 @@ A simple and stylish to-do list application built with **HTML**, **CSS**, and **
 ## 📸 Preview
 
 ![To-Do List Screenshot]() <!-- Add your screenshot file if you have one -->
-D:\web development\projects screenshort\ Screenshot 2025-04-04 070248
+
 ## 🛠️ Technologies Used
 
 - HTML5
